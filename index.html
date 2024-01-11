@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>World web</title>
+    <!--bostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Sacylon</title>
+</head>
+
+<style>
+    
+
+/*------------------------
+color, font and variable setup 
+------------------*/
+
+:root{
+    --c-primary:#71c683;
+    --c-secondry:#ddf846;
+    --c-background: #e6e6e6;
+    --c-dark:#2d2d2d;
+    --c-black:#000000;
+    --font-base:"poppins" , sans-serif;
+}
+
+
+
+
+body{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+    width: auto;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*------------------------
+button css  setup 
+------------------*/
+.btn{
+    font-weight: 600 !important;
+
+}
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+.btn-primary:hover{
+    background-color: var(--c-secondry) !important;
+
+}
+
+.btn-warning{
+    background-color: var(--c-background) !important;
+}
+
+
+/*------------------------
+Navbar css  setup 
+------------------*/
+.navbar{
+    font-family:var(--font-base) ;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.125);
+
+}
+
+.navbar-dark {
+        background-image: url;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar {
+        background-color: transparent; /* Set the background-color to transparent to allow the background image to be visible */
+    }
+
+
+/*------------------------
+Hero css  setup 
+------------------*/
+
+
+.background-image{
+  background: url(images/slider3.jpg);
+  background-position: top;
+  margin-top: -4px;
+}
+
+
+/*------------------------
+About us  css  setup 
+------------------*/
+
+.brand-title{
+    font-size: 45px;
+    font-weight: 750;
+}
+
+.Sacylon-title{
+  font-size: 45px;
+    font-weight: 750;
+
+}
+
+.Sacylon-title-p{
+   font-weight: 500;
+}
+
+.brand-p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--font-base);
+}
+
+.col-lg-6{
+  background-color: rgba(0,0,0,.075);
+}
+
+.col-lg-6 {
+  background: url(images/bg1.jpg);
+}
+
+
+
+
+
+
+/*------------------------
+footer  css  setup 
+------------------*/
+
+.footer{
+  background-color: var(--c-secondry);
+}
+
+</style>
+
+
+
+<body >
+
+<!-------------------Navbar start----------------------->
+<header class="background-image">
+<div class="navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark  container ">
+        
+        <img src="images/favicon/android-chrome-96x96.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <hr>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+            </li>
+     
+          </ul>
+          
+          
+        </div>
+      </nav>
+    </div>
+
+
+
+
+<!-------------------Navbar End----------------------->
+
+
+
+
+<!--------------------Hero start-------------------->
+
+
+<div id="Hero" class="col-12 min-vh-100 text-left align-items-left d-flex " >
+  <div class="container">
+      <div class="col-12">
+          <div><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+              <h1 class="display-1 herortext text-white ">Enjoy the old-world</h1>
+              <h2 class="text-white py-3">CHARM IN BEAUTIFUL ISTANBUL</h2>
+          </div>
+          <a href="#" class="btn btn-primary me-4 px-5 py-3">Read more</a>
+          
+      </div>
+  </div>
+</div>
+</div>
+
+<!--------------------Hero End-------------------->
+</header>
+
+
+
+
+<!--------------------About  start-------------------->
+<br>
+<br>
+<br>
+<br>
+
+<div class="section-padding">
+  <div class="container align-items-center text-center section-padding">
+    <h1 class="brand-title">About us</h1>
+    <p class="my-5 brand-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum at temporibus deserunt corrupti cum cumque corporis repudiandae explicabo autem itaque. Quia, nobis cupiditate accusamus similique tenetur architecto. Sunt maxime aperiam debitis harum rerum? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio unde doloremque eos repellendus hic saepe perferendis blanditiis modi odio magnam deleniti numquam, velit molestias rerum soluta veritatis fuga. Praesentium ipsum architecto voluptas accusantium!
+      
+    </p>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="col-lg-12">
+<div class="row">
+  <div class="col-lg-6">
+    <img class="ms-auto d-flex mx-3" src="images/h1.jpg" alt="">
+  </div>
+  <div class="col-lg-6 container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="mx-5 Sacylon-title " >Why world web</h1>
+    <br>
+    <p class="mx-5 Sacylon-title-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste sint nobis quaerat, ipsa at mollitia magni error tenetur amet culpa nostrum fuga laudantium voluptatum, libero tempore.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae et non praesentium, dolores ad iste aperiam recusandae porro. Totam quidem cumque iure. Voluptatibus accusantium, illo incidunt nihil assumenda similique possimus rem laudantium harum velit, dignissimos doloremque vitae nam est obcaecati fugiat minima iure.
+
+    </p>
+    <a href="#" class="btn btn-primary me-4 px-5 py-3 mx-5 ">Read more</a>
+     <div>
+      <div class="iconbox">
+        <i class="ri-global-line"></i>
+      </div>
+     </div>
+  </div>
+</div>
+
+</div>
+
+
+<!--------------------About  End-------------------->
+
+
+<!--------------------service  start-------------------->
+<br>
+<br>
+<br>
+<br>
+
+<div class="section-padding">
+  <div class="container align-items-center text-center section-padding">
+    <h1 class="brand-title">Services</h1>
+    <p class="my-5 brand-p">  Sunt maxime aperiam debitis harum rerum? Quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio unde doloremque eos repellendus hic saepe perferendis blanditiis modi odio magnam deleniti numquam, velit molestias rerum soluta veritatis fuga. Praesentium ipsum architecto voluptas accusantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate voluptatum pariatur officiis optio nostrum. Iusto hic possimus, sed perspiciatis harum minus deserunt accusantium explicabo dolore neque pariatur, quae dicta asperiores aut eum quidem a.
+      
+    </p>
+
+  </div>
+</div>
+<!--------------------service  End-------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Start -->
+<div class="footer">
+        <div class="footer wow fadeIn container" data-wow-delay="0.3s" id="#contact">
+          <div class="container-fluid">
+            <br>
+            <br>
+              <div class="">
+                 <center>
+                <p class="my-5 brand-p">  tur distinctio esentium ipsum architecto voluptas accusantium!
+                </center>
+                </p>
+                  
+              </div>
+              
+              
+              <br>
+              <br>
+          </div>
+      </div>
+</div>
+
+
+
+
+     <!-- Footer End -->
+
+
+
+
+
+
+
+<!--Java script-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
